@@ -1,0 +1,64 @@
+.contenedor-listas {
+    background-color : sienna;
+}
+#titulo-lenguaje {
+    font-size :30px;
+    color:darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#imagen-desierto {
+    border-radius: 20px;
+    background-color: aqua;
+    border-width: 15px;
+    border-style: dashed;
+    padding:15px 10px 15px 5px;
+   
+   
+   
+    }
+    #importante .en  em {
+        color:blue;
+        background-color: coral;
+    }
+    /* selectores descendientes */
+    #grande .interior em {
+        color: red; 
+        background-color: blue;}
+    
+    /*selectores de hijos*/    
+        div > p {
+            color:rgb(218, 90, 129);
+        }
+
+    /* selector adyacente*/    
+    pre + p {
+            color:aqua;
+        }
+
+
+    p.left {text-align: left;
+            font-weight: bold;}
+          
+          p.right {text-align: right;}
+          
+          p.center {text-align: center;
+          font-weight: bold;}
+          
+          p.justify {text-align: justify;}
+          
+          .bloque {
+            height: 200px; 
+            width: 300px;
+            background-color: red;
+            display: inline-table;
+        }
+        .tex {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        #imagen-desierto { 
+            display: flex;
+            justify-content: center;
+
+        }
