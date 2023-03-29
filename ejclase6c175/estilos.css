@@ -1,0 +1,28 @@
+h3 {
+    text-align: center;
+}
+
+.border-box { 
+     padding: 5px 70px 5px 70px;
+     display:inline-block;
+     border-radius: 25px;
+     background-color: antiquewhite;
+     justify-content: center;
+
+}
+/* propiedad de la imagen */
+.contenedor {
+   display: flex;
+   justify-content: center;
+   
+}
+/* imagen de fondo*/ 
+body {
+    background-image: url(img/bg-palm.jpg);
+  
+}
+
+#formulario {
+    text-align: center;
+}
+

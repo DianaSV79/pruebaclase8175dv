@@ -1,0 +1,47 @@
+.formulario {
+    display: inline-block;
+    background-color: beige;
+    padding: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+#formulario {
+    text-align: center;
+}
+
+.bloque {
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: auto;
+}
+.border-box { 
+     padding: 5px 70px 5px 70px;
+     display:inline-block;
+     border-radius: 25px;
+     background-color: antiquewhite;
+
+}
+/* propiedad de la imagen */
+.contenedor {
+   display: flex;
+   justify-content: center;
+   
+}
+/* imagen de fondo*/ 
+body {
+    background-image: url(img/bg-palm.jpg);
+  
+}
+
+.border-box, input {
+    justify-content: flex-start;
+
+}
+div .contenedor {
+    display: inline-flex;
+   justify-content: space-between;
+
+}
